@@ -1,0 +1,76 @@
+#ifdef __USE_CMSIS
+#include "LPC43xx.h"
+#endif
+#include "lpc43xx_gpio.h"
+#include "lpc43xx_scu.h"
+#include "lpc43xx_libcfg_default.h"
+#include "lpc43xx_cgu.h"
+#include "lpc43xx_utils.h"
+
+#include <cr_section_macros.h>
+#include <NXP/crp.h>
+
+// BK
+
+#include "FreeRTOS/inc/FreeRTOS.h"
+//#include "task.h"
+//#include "timers.h"
+//#include "semphr.h"
+
+
+#include "LED.H"
+
+__CRP const unsigned int CRP_WORD = CRP_NO_CRP ;
+
+uint32_t msec;
+uint32_t tempx, tempy;
+
+
+int BK_TEST(void)
+{
+	// Needed
+	SystemInit();
+	CGU_Init();
+
+	SetupLEDS();
+
+	while (1)
+	{                           					// Loop forever
+		LED1();
+		LED2();
+	}
+	return 0;
+}
+
+static void vLEDTask0(void *pvParameters) {
+	LED1();
+}
+
+
+
+int main(void)
+{
+	// Needed
+	SystemInit();
+	CGU_Init();
+
+	SetupLEDS();
+
+	/* LED0 toggle thread */
+    xTaskCreate(vLEDTask0, (signed char *) "vTaskLed0",
+                            configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 1UL),
+                            (xTaskHandle *) NULL);
+
+	vTaskStartScheduler();
+
+	//return BK_TEST();
+}
+
+#ifdef  DEBUG
+void check_failed(uint8_t *file, uint32_t line)
+{
+	while(1);
+}
+#endif
+
+

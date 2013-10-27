@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+	<extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
+		<provider class="org.eclipse.cdt.managedbuilder.language.settings.providers.GCCBuildCommandParser" id="com.crt.advproject.GCCBuildCommandParser" keep-relative-paths="false" name="MCU GCC Build Output Parser" parameter="(arm-none-eabi-gcc)|(arm-none-eabi-[gc]\+\+)|(gcc)|([gc]\+\+)|(clang)" prefer-non-shared="false">
+			<language id="org.eclipse.cdt.core.gcc">
+				<resource project-relative-path="src/HID/hid.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/Audio_loopback/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/EMAC/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/HID/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/croutine.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test/src/FreeRTOS/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/port.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="FreeRTOS/Source/tasks.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/Emac/src/tcpip.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_Ethernet/src/Emac/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/Source/croutine.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/EMAC/src/emac.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/Audio_loopback/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/EMAC/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/HID/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/include/cr_startup_lpc43xx.c">
+					<entry kind="includePath" name="/Test/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/tasks.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/src/list.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/cr_start_m0.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/EMAC/src/tcpip.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/Audio_loopback/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/EMAC/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/HID/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/cr_startup_lpc43xx.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/heap_4.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/Source/timers.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/heap_2.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/heap_1.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/portable/oWatcom/16BitDOS/common/portcomn.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test/src/FreeRTOS/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/timers.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/heap_3.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/list.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/src/heap_1.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="FreeRTOS/Source/list.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/Source/tasks.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/include/timers.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/queue.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/include/list.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/include/LED.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/freertos_main.c">
+					<entry kind="includePath" name="/freertos/freertos/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/freertos/cmsis">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/freertos/freertos/port/lpcxpresso/m0">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/freertos/config">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/freertos/driver">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value=""/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/src/queue.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/include/queue.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="FreeRTOS/Source/queue.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/Audio_loopback/src/audio_uda1380.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/Audio_loopback/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/EMAC/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/HID/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/Emac/src/emac.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_Ethernet/src/Emac/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/include/tasks.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/HID/hid_usbdesc.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/Audio_loopback/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/EMAC/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/HID/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/LED.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/croutine.c">
+					<entry kind="includePath" name="/Test 2 LED - FreeTROS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/Sdio_msc/Sdio_readwrite.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/Audio_loopback/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/EMAC/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/HID/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/src/timers.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/Source/list.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="FreeRTOS/Source/include/ARM_CM4F/port.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/src/port.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/crp.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/include/croutine.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/Source/queue.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/main.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/src/croutine.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/EMAC/src/easyweb.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/Audio_loopback/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/EMAC/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/HID/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/HID/usbd_hid.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/Audio_loopback/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/EMAC/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_PeripheralTest/src/HID/usbd">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/LPC4330_Xplorer_UsbVcomLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="FreeRTOS/Source/timers.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/FreeRTOS/src/tasks.c">
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="FreeRTOS/Source/croutine.c">
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/src">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test 2 LED FreeRTOS/FreeRTOS/Source">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+				<resource project-relative-path="src/include/ARM_CM4F/port.c">
+					<entry kind="includePath" name="/Test/src/include">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/Test/src/include/ARM_CM4F">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="includePath" name="/CMSISv2p10_LPC43xx_DriverLib/inc">
+						<flag value="VALUE_WORKSPACE_PATH|RESOLVED"/>
+					</entry>
+					<entry kind="macro" name="CORE_M4" value=""/>
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__LPC43XX__" value=""/>
+					<entry kind="macro" name="__REDLIB__" value=""/>
+					<entry kind="macro" name="__USE_CMSIS" value="CMSISv2p10_LPC43xx_DriverLib"/>
+				</resource>
+			</language>
+			<language id="org.eclipse.cdt.core.g++">
+				<resource project-relative-path="src/main.cpp">
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__NEWLIB__" value=""/>
+				</resource>
+				<resource project-relative-path="main.cpp">
+					<entry kind="macro" name="DEBUG" value=""/>
+					<entry kind="macro" name="__CODE_RED" value=""/>
+					<entry kind="macro" name="__NEWLIB__" value=""/>
+				</resource>
+			</language>
+		</provider>
+	</extension>
+</plugin>

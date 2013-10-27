@@ -1,0 +1,11 @@
+20:40:45 **** Incremental Build of configuration Debug for project MCB4357_LedStrobe ****
+make all 
+Building file: ../src/cr_startup_lpc43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSIS_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -Os -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/cr_startup_lpc43xx.d" -MT"src/cr_startup_lpc43xx.d" -o "src/cr_startup_lpc43xx.o" "../src/cr_startup_lpc43xx.c"
+../src/cr_startup_lpc43xx.c:51:21: fatal error: LPC43xx.h: No such file or directory
+compilation terminated.
+make: *** [src/cr_startup_lpc43xx.o] Error 1
+
+20:40:45 Build Finished (took 294ms)
+

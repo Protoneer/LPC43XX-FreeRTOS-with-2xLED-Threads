@@ -1,0 +1,6 @@
+21:34:20 **** Incremental Build of configuration Debug for project LPC4330_Xplorer_Ethernet ****
+make all 
+make: Nothing to be done for `all'.
+
+21:34:20 Build Finished (took 91ms)
+

@@ -1,0 +1,58 @@
+20:29:56 **** Build of configuration Debug for project LPC4330_Xplorer_UsbVcomLib ****
+make all 
+Building file: ../src/cdcuser.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/cdcuser.d" -MT"src/cdcuser.d" -o "src/cdcuser.o" "../src/cdcuser.c"
+Finished building: ../src/cdcuser.c
+ 
+Building file: ../src/serial.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/serial.d" -MT"src/serial.d" -o "src/serial.o" "../src/serial.c"
+Finished building: ../src/serial.c
+ 
+Building file: ../src/usbcore.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/usbcore.d" -MT"src/usbcore.d" -o "src/usbcore.o" "../src/usbcore.c"
+Finished building: ../src/usbcore.c
+ 
+Building file: ../src/usbdesc.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/usbdesc.d" -MT"src/usbdesc.d" -o "src/usbdesc.o" "../src/usbdesc.c"
+Finished building: ../src/usbdesc.c
+ 
+Building file: ../src/usbhw.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/usbhw.d" -MT"src/usbhw.d" -o "src/usbhw.o" "../src/usbhw.c"
+Finished building: ../src/usbhw.c
+ 
+Building file: ../src/usbuser.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/usbuser.d" -MT"src/usbuser.d" -o "src/usbuser.o" "../src/usbuser.c"
+Finished building: ../src/usbuser.c
+ 
+Building file: ../src/vcomdemo.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/vcomdemo.d" -MT"src/vcomdemo.d" -o "src/vcomdemo.o" "../src/vcomdemo.c"
+Finished building: ../src/vcomdemo.c
+ 
+Building target: libLPC4330_Xplorer_UsbVcomLib.a
+Invoking: MCU Archiver
+arm-none-eabi-ar -r  "libLPC4330_Xplorer_UsbVcomLib.a"  ./src/cdcuser.o ./src/serial.o ./src/usbcore.o ./src/usbdesc.o ./src/usbhw.o ./src/usbuser.o ./src/vcomdemo.o   
+c:\nxp\LPCXpresso_5.2.6_2137\lpcxpresso\tools\bin\arm-none-eabi-ar.exe: creating libLPC4330_Xplorer_UsbVcomLib.a
+Finished building target: libLPC4330_Xplorer_UsbVcomLib.a
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "libLPC4330_Xplorer_UsbVcomLib.a" ; # arm-none-eabi-objdump -h -S "libLPC4330_Xplorer_UsbVcomLib.a" >"libLPC4330_Xplorer_UsbVcomLib.lss"
+   text	   data	    bss	    dec	    hex	filename
+   1696	     10	      2	   1708	    6ac	cdcuser.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+   2120	      0	      0	   2120	    848	serial.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+   4772	      0	      0	   4772	   12a4	usbcore.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+    416	      0	      0	    416	    1a0	usbdesc.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+   4320	      0	     20	   4340	   10f4	usbhw.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+    240	      0	      2	    242	     f2	usbuser.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+    364	      0	    102	    466	    1d2	vcomdemo.o (ex libLPC4330_Xplorer_UsbVcomLib.a)
+ 
+
+20:29:59 Build Finished (took 3s.344ms)
+

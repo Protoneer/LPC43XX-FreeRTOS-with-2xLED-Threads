@@ -1,0 +1,65 @@
+20:15:06 **** Build of configuration Debug for project LPC4330_Xplorer_PeripheralTest ****
+make all 
+Building file: ../src/HID/hid.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\Audio_loopback\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\EMAC\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\HID\usbd" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/HID/hid.d" -MT"src/HID/hid.d" -o "src/HID/hid.o" "../src/HID/hid.c"
+../src/HID/hid.c: In function 'Hid_init':
+../src/HID/hid.c:92:20: warning: variable 'CoreM4Freq' set but not used [-Wunused-but-set-variable]
+../src/HID/hid.c: In function 'vCatchError':
+../src/HID/hid.c:208:19: warning: variable 'u8theError' set but not used [-Wunused-but-set-variable]
+Finished building: ../src/HID/hid.c
+ 
+Building file: ../src/HID/hid_usbdesc.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\Audio_loopback\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\EMAC\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\HID\usbd" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/HID/hid_usbdesc.d" -MT"src/HID/hid_usbdesc.d" -o "src/HID/hid_usbdesc.o" "../src/HID/hid_usbdesc.c"
+Finished building: ../src/HID/hid_usbdesc.c
+ 
+Building file: ../src/HID/usbd_hid.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\Audio_loopback\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\EMAC\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\HID\usbd" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/HID/usbd_hid.d" -MT"src/HID/usbd_hid.d" -o "src/HID/usbd_hid.o" "../src/HID/usbd_hid.c"
+Finished building: ../src/HID/usbd_hid.c
+ 
+Building file: ../src/EMAC/src/easyweb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\Audio_loopback\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\EMAC\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\HID\usbd" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/EMAC/src/easyweb.d" -MT"src/EMAC/src/easyweb.d" -o "src/EMAC/src/easyweb.o" "../src/EMAC/src/easyweb.c"
+Finished building: ../src/EMAC/src/easyweb.c
+ 
+Building file: ../src/EMAC/src/emac.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\Audio_loopback\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\EMAC\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\HID\usbd" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/EMAC/src/emac.d" -MT"src/EMAC/src/emac.d" -o "src/EMAC/src/emac.o" "../src/EMAC/src/emac.c"
+Finished building: ../src/EMAC/src/emac.c
+ 
+Building file: ../src/EMAC/src/tcpip.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\Audio_loopback\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\EMAC\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\HID\usbd" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/EMAC/src/tcpip.d" -MT"src/EMAC/src/tcpip.d" -o "src/EMAC/src/tcpip.o" "../src/EMAC/src/tcpip.c"
+Finished building: ../src/EMAC/src/tcpip.c
+ 
+Building file: ../src/Audio_loopback/src/audio_uda1380.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\Audio_loopback\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\EMAC\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\HID\usbd" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/Audio_loopback/src/audio_uda1380.d" -MT"src/Audio_loopback/src/audio_uda1380.d" -o "src/Audio_loopback/src/audio_uda1380.o" "../src/Audio_loopback/src/audio_uda1380.c"
+Finished building: ../src/Audio_loopback/src/audio_uda1380.c
+ 
+Building file: ../src/cr_startup_lpc43xx.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\Audio_loopback\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\EMAC\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\HID\usbd" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -Os -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/cr_startup_lpc43xx.d" -MT"src/cr_startup_lpc43xx.d" -o "src/cr_startup_lpc43xx.o" "../src/cr_startup_lpc43xx.c"
+Finished building: ../src/cr_startup_lpc43xx.c
+ 
+Building file: ../src/main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\Audio_loopback\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\EMAC\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_PeripheralTest\src\HID\usbd" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\inc" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: LPC4330_Xplorer_PeripheralTest.axf
+Invoking: MCU Linker
+arm-none-eabi-gcc -nostdlib -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug" -L"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\LPC4330_Xplorer_UsbVcomLib\Lib" -Xlinker -Map="LPC4330_Xplorer_PeripheralTest.map" -Xlinker --gc-sections -mcpu=cortex-m4 -mthumb -T "LPC4330_Xplorer_PeripheralTest_Debug.ld" -o "LPC4330_Xplorer_PeripheralTest.axf"  ./src/Sdio_msc/Sdio_readwrite.o  ./src/HID/hid.o ./src/HID/hid_usbdesc.o ./src/HID/usbd_hid.o  ./src/EMAC/src/easyweb.o ./src/EMAC/src/emac.o ./src/EMAC/src/tcpip.o  ./src/Audio_loopback/src/audio_uda1380.o  ./src/cr_startup_lpc43xx.o ./src/main.o   -lCMSISv2p10_LPC43xx_DriverLib -lLPC4330_Xplorer_UsbVcomLib
+Finished building target: LPC4330_Xplorer_PeripheralTest.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size LPC4330_Xplorer_PeripheralTest.axf; arm-none-eabi-objcopy -O ihex LPC4330_Xplorer_PeripheralTest.axf LPC4330_Xplorer_PeripheralTest.hex ; arm-none-eabi-objcopy -O binary LPC4330_Xplorer_PeripheralTest.axf LPC4330_Xplorer_PeripheralTest.bin ; checksum -p LPC4337 -d LPC4330_Xplorer_PeripheralTest.bin;
+   text	   data	    bss	    dec	    hex	filename
+  70848	    632	  24296	  95776	  17620	LPC4330_Xplorer_PeripheralTest.axf
+Created checksum 0x53ff3796 at offset 0x1c in file LPC4330_Xplorer_PeripheralTest.bin 
+
+20:15:14 Build Finished (took 7s.442ms)
+

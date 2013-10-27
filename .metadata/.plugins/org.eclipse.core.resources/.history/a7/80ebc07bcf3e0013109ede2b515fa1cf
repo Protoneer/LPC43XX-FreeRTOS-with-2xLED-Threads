@@ -1,0 +1,663 @@
+Archive member included because of file (symbol)
+
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                              ./src/main.o (CGU_Init)
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                              ./src/include/LED.o (GPIO_SetDir)
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+                              ./src/include/LED.o (scu_pinmux)
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+                              ./src/include/LED.o (timer_delay_ms)
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+                              ./src/cr_startup_lpc43xx.o (SystemInit)
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+                              C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o) (TIM_GetIntStatus)
+c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7e-m\libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc43xx.o (__main)
+c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+                              C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o) (__aeabi_uldivmod)
+
+Allocating common symbols
+Common symbol       size              file
+
+tempy               0x4               ./src/main.o
+msec                0x4               ./src/main.o
+TIM_ConfigStruct    0x8               C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+TIM_MatchConfigStruct
+                    0xc               C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+tempx               0x4               ./src/main.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./src/include/LED.o
+ .data          0x00000000        0x0 ./src/include/LED.o
+ .bss           0x00000000        0x0 ./src/include/LED.o
+ .text          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .data          0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .bss           0x00000000        0x0 ./src/cr_startup_lpc43xx.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .crp           0x00000000        0x4 ./src/main.o
+ COMMON         0x00000000        0xc ./src/main.o
+ .text          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .data          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .bss           0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .text.CGU_ConfigPWR
+                0x00000000      0x59c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .text.CGU_SetDIV
+                0x00000000       0x84 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .text.CGU_SetPLL0
+                0x00000000       0x60 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .text.CGU_SetPLL0audio
+                0x00000000       0x6c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .text.CGU_GetBaseStatus
+                0x00000000      0x180 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .text.CGU_FrequencyMonitor
+                0x00000000      0x138 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .text.CGU_RealFrequencyCompare
+                0x00000000       0x74 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .text          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .data          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .bss           0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .text.GPIO_ReadValue
+                0x00000000       0x28 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .text.GPIO_IntCmd
+                0x00000000      0xa00 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .text.GPIO_GetIntStatus
+                0x00000000       0x30 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .text.GPIO_ClearInt
+                0x00000000       0x2c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .text.FIO_SetDir
+                0x00000000       0x28 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .text.FIO_SetValue
+                0x00000000       0x20 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .text.FIO_ClearValue
+                0x00000000       0x20 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .text.FIO_ReadValue
+                0x00000000       0x20 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .text.FIO_SetMask
+                0x00000000       0x7c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .text          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .data          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .bss           0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .text          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .data          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .bss           0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .text.timer_delay_us
+                0x00000000       0xe8 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .text          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .data          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .bss           0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .text          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .data          0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .bss           0x00000000        0x0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_GetIntCaptureStatus
+                0x00000000       0xc8 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_ClearIntCapturePending
+                0x00000000       0xb0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_ConfigStructInit
+                0x00000000       0x40 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_DeInit
+                0x00000000       0x60 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_ResetCounter
+                0x00000000       0x70 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_UpdateMatchValue
+                0x00000000       0xa0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_ConfigCapture
+                0x00000000      0x110 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_GetCaptureValue
+                0x00000000       0xc0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_Waitus
+                0x00000000       0x84 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_Waitms
+                0x00000000       0x20 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7e-m\libcr_c.a(__weak__main.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7e-m\libcr_c.a(__weak__main.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7e-m\libcr_c.a(__weak__main.o)
+ .text          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+ .data          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+ .bss           0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idiv
+                0x00000000       0x10 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivmod
+                0x00000000       0x16 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uidiv
+                0x00000000       0x10 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uidivmod
+                0x00000000       0x16 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldivmod
+                0x00000000       0x26 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldiv0
+                0x00000000        0x2 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlashA512       0x1a000000         0x00080000         xr
+MFlashB512       0x1b000000         0x00080000         xr
+RamLoc32         0x10000000         0x00008000         xrw
+RamLoc40         0x10080000         0x0000a000         xrw
+RamAHB32         0x20000000         0x00008000         xrw
+RamAHB16         0x20008000         0x00004000         xrw
+RamAHB_ETB16     0x2000c000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./src/include/LED.o
+LOAD ./src/cr_startup_lpc43xx.o
+LOAD ./src/main.o
+LOAD C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a
+START GROUP
+LOAD c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7e-m\libcr_c.a
+LOAD c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a
+END GROUP
+                0x1a080000                __top_MFlashA512 = 0x1a080000
+                0x1b080000                __top_MFlashB512 = 0x1b080000
+                0x10008000                __top_RamLoc32 = 0x10008000
+                0x1008a000                __top_RamLoc40 = 0x1008a000
+                0x20008000                __top_RamAHB32 = 0x20008000
+                0x2000c000                __top_RamAHB16 = 0x2000c000
+                0x20010000                __top_RamAHB_ETB16 = 0x20010000
+
+.text_Flash2    0x1b000000        0x0
+ FILL mask 0xff
+ *(.text_Flash2*)
+ *(.text_MFlashB512*)
+
+.text           0x1a000000     0x1ac8
+ FILL mask 0xff
+                0x1a000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x1a000000      0x114 ./src/cr_startup_lpc43xx.o
+                0x1a000000                g_pfnVectors
+                0x1a000114                . = ALIGN (0x4)
+                0x1a000114                __section_table_start = .
+                0x1a000114                __data_section_table = .
+                0x1a000114        0x4 LONG 0x1a001ac8 LOADADDR (.data)
+                0x1a000118        0x4 LONG 0x10000000 ADDR (.data)
+                0x1a00011c        0x4 LONG 0x48 SIZEOF (.data)
+                0x1a000120        0x4 LONG 0x1a001ac8 LOADADDR (.data_RAM2)
+                0x1a000124        0x4 LONG 0x10080000 ADDR (.data_RAM2)
+                0x1a000128        0x4 LONG 0x0 SIZEOF (.data_RAM2)
+                0x1a00012c        0x4 LONG 0x1a001ac8 LOADADDR (.data_RAM3)
+                0x1a000130        0x4 LONG 0x20000000 ADDR (.data_RAM3)
+                0x1a000134        0x4 LONG 0x0 SIZEOF (.data_RAM3)
+                0x1a000138        0x4 LONG 0x1a001ac8 LOADADDR (.data_RAM4)
+                0x1a00013c        0x4 LONG 0x20008000 ADDR (.data_RAM4)
+                0x1a000140        0x4 LONG 0x0 SIZEOF (.data_RAM4)
+                0x1a000144        0x4 LONG 0x1a001ac8 LOADADDR (.data_RAM5)
+                0x1a000148        0x4 LONG 0x2000c000 ADDR (.data_RAM5)
+                0x1a00014c        0x4 LONG 0x0 SIZEOF (.data_RAM5)
+                0x1a000150                __data_section_table_end = .
+                0x1a000150                __bss_section_table = .
+                0x1a000150        0x4 LONG 0x10000048 ADDR (.bss)
+                0x1a000154        0x4 LONG 0x14 SIZEOF (.bss)
+                0x1a000158        0x4 LONG 0x10080000 ADDR (.bss_RAM2)
+                0x1a00015c        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
+                0x1a000160        0x4 LONG 0x20000000 ADDR (.bss_RAM3)
+                0x1a000164        0x4 LONG 0x0 SIZEOF (.bss_RAM3)
+                0x1a000168        0x4 LONG 0x20008000 ADDR (.bss_RAM4)
+                0x1a00016c        0x4 LONG 0x0 SIZEOF (.bss_RAM4)
+                0x1a000170        0x4 LONG 0x2000c000 ADDR (.bss_RAM5)
+                0x1a000174        0x4 LONG 0x0 SIZEOF (.bss_RAM5)
+                0x1a000178                __bss_section_table_end = .
+                0x1a000178                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x1a000178       0x36 ./src/cr_startup_lpc43xx.o
+                0x1a000178                NMI_Handler
+                0x1a00017a                HardFault_Handler
+                0x1a00017c                MemManage_Handler
+                0x1a00017e                BusFault_Handler
+                0x1a000180                UsageFault_Handler
+                0x1a000182                SVC_Handler
+                0x1a000184                DebugMon_Handler
+                0x1a000186                PendSV_Handler
+                0x1a000188                SysTick_Handler
+                0x1a00018a                data_init
+                0x1a00019c                bss_init
+                0x1a0001ac                I2C1_IRQHandler
+                0x1a0001ac                UART1_IRQHandler
+                0x1a0001ac                GPIO5_IRQHandler
+                0x1a0001ac                CAN1_IRQHandler
+                0x1a0001ac                USB1_IRQHandler
+                0x1a0001ac                ATIMER_IRQHandler
+                0x1a0001ac                TIMER3_IRQHandler
+                0x1a0001ac                UART0_IRQHandler
+                0x1a0001ac                FLASH_EEPROM_IRQHandler
+                0x1a0001ac                SGPIO_IRQHandler
+                0x1a0001ac                ADC0_IRQHandler
+                0x1a0001ac                RIT_IRQHandler
+                0x1a0001ac                GPIO6_IRQHandler
+                0x1a0001ac                I2S0_IRQHandler
+                0x1a0001ac                GPIO1_IRQHandler
+                0x1a0001ac                SSP0_IRQHandler
+                0x1a0001ac                ADC1_IRQHandler
+                0x1a0001ac                RTC_IRQHandler
+                0x1a0001ac                TIMER0_IRQHandler
+                0x1a0001ac                SPI_IRQHandler
+                0x1a0001ac                LCD_IRQHandler
+                0x1a0001ac                VADC_IRQHandler
+                0x1a0001ac                SDIO_IRQHandler
+                0x1a0001ac                TIMER1_IRQHandler
+                0x1a0001ac                UART2_IRQHandler
+                0x1a0001ac                GPIO2_IRQHandler
+                0x1a0001ac                I2S1_IRQHandler
+                0x1a0001ac                SSP1_IRQHandler
+                0x1a0001ac                USB0_IRQHandler
+                0x1a0001ac                GPIO3_IRQHandler
+                0x1a0001ac                SCT_IRQHandler
+                0x1a0001ac                IntDefaultHandler
+                0x1a0001ac                WDT_IRQHandler
+                0x1a0001ac                I2C0_IRQHandler
+                0x1a0001ac                GPIO7_IRQHandler
+                0x1a0001ac                SPIFI_IRQHandler
+                0x1a0001ac                QEI_IRQHandler
+                0x1a0001ac                ETH_IRQHandler
+                0x1a0001ac                M0CORE_IRQHandler
+                0x1a0001ac                CAN0_IRQHandler
+                0x1a0001ac                GINT0_IRQHandler
+                0x1a0001ac                M0s_IRQHandler
+                0x1a0001ac                DAC_IRQHandler
+                0x1a0001ac                GPIO0_IRQHandler
+                0x1a0001ac                DMA_IRQHandler
+                0x1a0001ac                EVRT_IRQHandler
+                0x1a0001ac                TIMER2_IRQHandler
+                0x1a0001ac                UART3_IRQHandler
+                0x1a0001ac                MCPWM_IRQHandler
+                0x1a0001ac                GINT1_IRQHandler
+                0x1a0001ac                EZH_IRQHandler
+                0x1a0001ac                GPIO4_IRQHandler
+ *(.text*)
+ *fill*         0x1a0001ae        0x2 00
+ .text.SetupLEDS
+                0x1a0001b0       0x68 ./src/include/LED.o
+                0x1a0001b0                SetupLEDS
+ .text.LED1     0x1a000218       0x28 ./src/include/LED.o
+                0x1a000218                LED1
+ .text.LED2     0x1a000240       0x28 ./src/include/LED.o
+                0x1a000240                LED2
+ .text.ResetISR
+                0x1a000268       0x94 ./src/cr_startup_lpc43xx.o
+                0x1a000268                ResetISR
+ .text.BK_TEST  0x1a0002fc       0x1c ./src/main.o
+                0x1a0002fc                BK_TEST
+ .text.main     0x1a000318       0x10 ./src/main.o
+                0x1a000318                main
+ .text.check_failed
+                0x1a000328        0xc ./src/main.o
+                0x1a000328                check_failed
+ .text.CGU_Init
+                0x1a000334       0x54 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a000334                CGU_Init
+ .text.CGU_GetPCLKFrequency
+                0x1a000388      0x204 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a000388                CGU_GetPCLKFrequency
+ .text.CGU_UpdateClock
+                0x1a00058c      0x170 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a00058c                CGU_UpdateClock
+ .text.CGU_SetXTALOSC
+                0x1a0006fc       0x7c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a0006fc                CGU_SetXTALOSC
+ .text.CGU_EnableEntity
+                0x1a000778      0x214 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a000778                CGU_EnableEntity
+ .text.CGU_EntityConnect
+                0x1a00098c      0x104 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a00098c                CGU_EntityConnect
+ .text.CGU_SetPLL1
+                0x1a000a90      0x13c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a000a90                CGU_SetPLL1
+ .text.GPIO_SetDir
+                0x1a000bcc       0x7c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                0x1a000bcc                GPIO_SetDir
+ .text.GPIO_SetValue
+                0x1a000c48       0x2c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                0x1a000c48                GPIO_SetValue
+ .text.GPIO_ClearValue
+                0x1a000c74       0x2c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                0x1a000c74                GPIO_ClearValue
+ .text.scu_pinmux
+                0x1a000ca0       0x4c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+                0x1a000ca0                scu_pinmux
+ .text.timer_delay_ms
+                0x1a000cec       0xe8 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+                0x1a000cec                timer_delay_ms
+ .text.SystemInit
+                0x1a000dd4       0x48 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+                0x1a000dd4                SystemInit
+ .text.getPClock
+                0x1a000e1c       0x68 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.converUSecToVal
+                0x1a000e84       0x64 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.converPtrToTimeNum
+                0x1a000ee8       0x74 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .text.TIM_GetIntStatus
+                0x1a000f5c       0xc4 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+                0x1a000f5c                TIM_GetIntStatus
+ .text.TIM_ClearIntPending
+                0x1a001020       0xac C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+                0x1a001020                TIM_ClearIntPending
+ .text.TIM_Init
+                0x1a0010cc      0x138 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+                0x1a0010cc                TIM_Init
+ .text.TIM_Cmd  0x1a001204       0x7c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+                0x1a001204                TIM_Cmd
+ .text.TIM_ConfigMatch
+                0x1a001280      0x1d0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+                0x1a001280                TIM_ConfigMatch
+ .text.__weak_main
+                0x1a001450        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7e-m\libcr_c.a(__weak__main.o)
+                0x1a001450                __weak_main
+                0x1a001450                __main
+ .text.__aeabi_division_uldivmod
+                0x1a001454      0x174 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+                0x1a001454                __aeabi_uldivmod
+                0x1a001458                __bhs_ldivmod1
+ .text.__aeabi_division_idiv0
+                0x1a0015c8        0x2 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+                0x1a0015c8                __aeabi_idiv0
+ *(.rodata .rodata.*)
+ *fill*         0x1a0015ca        0x2 00
+ .rodata.CGU_Entity_ControlReg_Offset
+                0x1a0015cc       0x5c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a0015cc                CGU_Entity_ControlReg_Offset
+ .rodata.CGU_ConnectAlloc_Tbl
+                0x1a001628      0x300 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a001628                CGU_ConnectAlloc_Tbl
+ .rodata.CGU_PERIPHERAL_Info
+                0x1a001928      0x188 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x1a001928                CGU_PERIPHERAL_Info
+ .rodata        0x1a001ab0       0x18 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+                0x1a001ac8                . = ALIGN (0x4)
+
+.glue_7         0x1a001ac8        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x1a001ac8        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x1a001ac8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x1a001ac8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x1a001ac8                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x1a001ac8                __exidx_end = .
+                0x1a001ac8                _etext = .
+
+.data_RAM2      0x10080000        0x0 load address 0x1a001ac8
+ FILL mask 0xff
+ *(.data.$RAM2*)
+ *(.data.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.data_RAM3      0x20000000        0x0 load address 0x1a001ac8
+ FILL mask 0xff
+ *(.data.$RAM3*)
+ *(.data.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.data_RAM4      0x20008000        0x0 load address 0x1a001ac8
+ FILL mask 0xff
+ *(.data.$RAM4*)
+ *(.data.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+
+.data_RAM5      0x2000c000        0x0 load address 0x1a001ac8
+ FILL mask 0xff
+ *(.data.$RAM5*)
+ *(.data.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.uninit_RESERVED
+                0x10000000        0x0
+ *(.bss.$RESERVED*)
+                0x10000000                . = ALIGN (0x4)
+                0x10000000                _end_uninit_RESERVED = .
+
+.data           0x10000000       0x48 load address 0x1a001ac8
+ FILL mask 0xff
+                0x10000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.CGU_ClockSourceFrequency
+                0x10000000       0x44 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                0x10000000                CGU_ClockSourceFrequency
+ .data.SystemCoreClock
+                0x10000044        0x4 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+                0x10000044                SystemCoreClock
+                0x10000048                . = ALIGN (0x4)
+                0x10000048                _edata = .
+
+.bss_RAM2       0x10080000        0x0
+ *(.bss.$RAM2*)
+ *(.bss.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.bss_RAM3       0x20000000        0x0
+ *(.bss.$RAM3*)
+ *(.bss.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.bss_RAM4       0x20008000        0x0
+ *(.bss.$RAM4*)
+ *(.bss.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+
+.bss_RAM5       0x2000c000        0x0
+ *(.bss.$RAM5*)
+ *(.bss.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.bss            0x10000048       0x14
+                0x10000048                _bss = .
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x10000048       0x14 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+                0x10000048                TIM_ConfigStruct
+                0x10000050                TIM_MatchConfigStruct
+                0x1000005c                . = ALIGN (0x4)
+                0x1000005c                _ebss = .
+                0x1000005c                PROVIDE (end, .)
+
+.noinit_RAM2    0x10080000        0x0
+ *(.noinit.$RAM2*)
+ *(.noinit.$RamLoc40*)
+                0x10080000                . = ALIGN (0x4)
+
+.noinit_RAM3    0x20000000        0x0
+ *(.noinit.$RAM3*)
+ *(.noinit.$RamAHB32*)
+                0x20000000                . = ALIGN (0x4)
+
+.noinit_RAM4    0x20008000        0x0
+ *(.noinit.$RAM4*)
+ *(.noinit.$RamAHB16*)
+                0x20008000                . = ALIGN (0x4)
+
+.noinit_RAM5    0x2000c000        0x0
+ *(.noinit.$RAM5*)
+ *(.noinit.$RamAHB_ETB16*)
+                0x2000c000                . = ALIGN (0x4)
+
+.noinit         0x1000005c        0x0
+                0x1000005c                _noinit = .
+ *(.noinit*)
+                0x1000005c                . = ALIGN (0x4)
+                0x1000005c                _end_noinit = .
+                0x1000005c                PROVIDE (_pvHeapStart, .)
+                0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
+OUTPUT(Test FreeRTOS LEDS.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x4813
+ .debug_info    0x00000000      0x10e ./src/include/LED.o
+ .debug_info    0x0000010e      0x373 ./src/cr_startup_lpc43xx.o
+ .debug_info    0x00000481      0x17f ./src/main.o
+ .debug_info    0x00000600     0x170e C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_info    0x00001d0e     0x14d7 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_info    0x000031e5      0x123 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_info    0x00003308      0x3e2 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .debug_info    0x000036ea      0x756 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_info    0x00003e40      0x9d3 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+
+.debug_abbrev   0x00000000      0xa5c
+ .debug_abbrev  0x00000000       0x95 ./src/include/LED.o
+ .debug_abbrev  0x00000095      0x18c ./src/cr_startup_lpc43xx.o
+ .debug_abbrev  0x00000221       0xb1 ./src/main.o
+ .debug_abbrev  0x000002d2      0x1a8 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_abbrev  0x0000047a      0x16c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_abbrev  0x000005e6       0xa0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_abbrev  0x00000686      0x120 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .debug_abbrev  0x000007a6      0x100 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_abbrev  0x000008a6      0x1b6 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+
+.debug_loc      0x00000000      0xcda
+ .debug_loc     0x00000000       0x84 ./src/include/LED.o
+ .debug_loc     0x00000084      0x176 ./src/cr_startup_lpc43xx.o
+ .debug_loc     0x000001fa       0x90 ./src/main.o
+ .debug_loc     0x0000028a      0x2ec C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_loc     0x00000576      0x2a0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_loc     0x00000816       0x38 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_loc     0x0000084e       0x70 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .debug_loc     0x000008be       0x2c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_loc     0x000008ea      0x3f0 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+
+.debug_aranges  0x00000000      0x2f0
+ .debug_aranges
+                0x00000000       0x30 ./src/include/LED.o
+ .debug_aranges
+                0x00000030       0x80 ./src/cr_startup_lpc43xx.o
+ .debug_aranges
+                0x000000b0       0x30 ./src/main.o
+ .debug_aranges
+                0x000000e0       0x88 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_aranges
+                0x00000168       0x78 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_aranges
+                0x000001e0       0x20 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_aranges
+                0x00000200       0x28 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .debug_aranges
+                0x00000228       0x20 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_aranges
+                0x00000248       0xa8 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+
+.debug_ranges   0x00000000      0x260
+ .debug_ranges  0x00000000       0x20 ./src/include/LED.o
+ .debug_ranges  0x00000020       0x70 ./src/cr_startup_lpc43xx.o
+ .debug_ranges  0x00000090       0x20 ./src/main.o
+ .debug_ranges  0x000000b0       0x78 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_ranges  0x00000128       0x68 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_ranges  0x00000190       0x10 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_ranges  0x000001a0       0x18 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .debug_ranges  0x000001b8       0x10 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_ranges  0x000001c8       0x98 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+
+.debug_line     0x00000000     0x2f9b
+ .debug_line    0x00000000      0x445 ./src/include/LED.o
+ .debug_line    0x00000445      0x45c ./src/cr_startup_lpc43xx.o
+ .debug_line    0x000008a1      0x6a7 ./src/main.o
+ .debug_line    0x00000f48      0x6f9 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_line    0x00001641      0x571 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_line    0x00001bb2      0x3f4 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_line    0x00001fa6      0x442 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .debug_line    0x000023e8      0x3da C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_line    0x000027c2      0x7d9 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+
+.debug_macinfo  0x00000000    0x5861c
+ .debug_macinfo
+                0x00000000     0x949c ./src/include/LED.o
+ .debug_macinfo
+                0x0000949c     0x90b8 ./src/cr_startup_lpc43xx.o
+ .debug_macinfo
+                0x00012554     0xd76f ./src/main.o
+ .debug_macinfo
+                0x0001fcc3     0x986d C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_macinfo
+                0x00029530     0x9406 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_macinfo
+                0x00032936     0x940d C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_macinfo
+                0x0003bd43     0x9aba C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .debug_macinfo
+                0x000457fd     0x9044 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_macinfo
+                0x0004e841     0x9ddb C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+
+.debug_str      0x00000000     0x2771
+ .debug_str     0x00000000      0x139 ./src/include/LED.o
+                                0x168 (size before relaxing)
+ .debug_str     0x00000139      0x1a0 ./src/cr_startup_lpc43xx.o
+                                0x2d6 (size before relaxing)
+ .debug_str     0x000002d9       0x5d ./src/main.o
+                                0x19f (size before relaxing)
+ .debug_str     0x00000336     0x142d C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+                               0x1528 (size before relaxing)
+ .debug_str     0x00001763      0x789 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+                                0x98d (size before relaxing)
+ .debug_str     0x00001eec       0x38 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+                                0x183 (size before relaxing)
+ .debug_str     0x00001f24      0x231 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+                                0x3af (size before relaxing)
+ .debug_str     0x00002155      0x364 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+                                0x536 (size before relaxing)
+ .debug_str     0x000024b9      0x2b8 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+                                0x98d (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/include/LED.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/cr_startup_lpc43xx.o
+ .comment       0x00000000       0x71 ./src/main.o
+ .comment       0x00000000       0x71 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .comment       0x00000000       0x71 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .comment       0x00000000       0x71 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .comment       0x00000000       0x71 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .comment       0x00000000       0x71 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .comment       0x00000000       0x71 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .comment       0x00000000       0x71 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7e-m\libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x00000000       0x37
+ .ARM.attributes
+                0x00000000       0x39 ./src/include/LED.o
+ .ARM.attributes
+                0x00000039       0x39 ./src/cr_startup_lpc43xx.o
+ .ARM.attributes
+                0x00000072       0x39 ./src/main.o
+ .ARM.attributes
+                0x000000ab       0x39 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .ARM.attributes
+                0x000000e4       0x39 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .ARM.attributes
+                0x0000011d       0x39 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .ARM.attributes
+                0x00000156       0x39 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .ARM.attributes
+                0x0000018f       0x39 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .ARM.attributes
+                0x000001c8       0x39 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)
+ .ARM.attributes
+                0x00000201       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7e-m\libcr_c.a(__weak__main.o)
+ .ARM.attributes
+                0x00000234       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7e-m\libcr_eabihelpers.a(division.o)
+
+.debug_frame    0x00000000      0x7b8
+ .debug_frame   0x00000000       0x64 ./src/include/LED.o
+ .debug_frame   0x00000064       0xf4 ./src/cr_startup_lpc43xx.o
+ .debug_frame   0x00000158       0x64 ./src/main.o
+ .debug_frame   0x000001bc      0x19c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_cgu.o)
+ .debug_frame   0x00000358      0x170 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_gpio.o)
+ .debug_frame   0x000004c8       0x2c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_scu.o)
+ .debug_frame   0x000004f4       0x50 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_utils.o)
+ .debug_frame   0x00000544       0x2c C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(system_LPC43xx.o)
+ .debug_frame   0x00000570      0x248 C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\CMSISv2p10_LPC43xx_DriverLib\Debug\libCMSISv2p10_LPC43xx_DriverLib.a(lpc43xx_timer.o)

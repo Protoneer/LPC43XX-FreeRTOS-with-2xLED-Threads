@@ -1,0 +1,36 @@
+#ifdef __USE_CMSIS
+#include "LPC43xx.h"
+#endif
+#include "lpc43xx_gpio.h"
+#include "lpc43xx_scu.h"
+
+#include "LED.H"
+
+#define LED1_BIT			11 //LEDUSB
+#define LED1_PORT			1
+#define LED2_BIT			12 //LEDUSB
+#define LED2_PORT			1
+
+void SetupLEDS(void)
+{
+	//scu_pinmux(0x2 ,11 , MD_PUP, FUNC0); 	// P2.11 : GPIO1_11: Xplorer BOARD (LED D2)
+	//GPIO_SetDir(LED1_PORT,(1<<LED1_BIT), 1);
+	//GPIO_ClearValue(LED1_PORT,(1<<LED1_BIT));
+	scu_pinmux(0x2 ,12 , MD_PUP, FUNC0); 	// P2.12 : GPIO1_12: Xplorer BOARD (LED D3)
+	GPIO_SetDir(LED2_PORT,(1<<LED2_BIT), 1);
+	GPIO_ClearValue(LED2_PORT,(1<<LED2_BIT));
+}
+
+void LED1(void)
+{
+	GPIO_ClearValue(LED1_PORT,(1<<LED1_BIT));
+	timer_delay_ms(50);
+	GPIO_SetValue(LED1_PORT,(1<<LED1_BIT));
+}
+
+void LED2(void)
+{
+	GPIO_ClearValue(LED2_PORT,(1<<LED2_BIT));
+	timer_delay_ms(50);
+	GPIO_SetValue(LED2_PORT,(1<<LED2_BIT));
+}

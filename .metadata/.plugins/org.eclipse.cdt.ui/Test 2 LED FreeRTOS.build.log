@@ -1,0 +1,11 @@
+09:34:49 **** Incremental Build of configuration Debug for project Test 2 LED FreeRTOS ****
+make all 
+Building file: ../src/LED.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -DDEBUG -D__CODE_RED -D__USE_CMSIS=CMSISv2p10_LPC43xx_DriverLib -DCORE_M4 -D__LPC43XX__ -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fsingle-precision-constant -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -MMD -MP -MF"src/LED.d" -MT"src/LED.d" -o "src/LED.o" "../src/LED.c"
+../src/LED.c:4:26: fatal error: lpc43xx_gpio.h: No such file or directory
+compilation terminated.
+make: *** [src/LED.o] Error 1
+
+09:34:49 Build Finished (took 246ms)
+

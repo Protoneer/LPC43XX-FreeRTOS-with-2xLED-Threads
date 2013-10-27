@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Test FreeRTOS LEDS/src/include/LED.cpp&apos; to &apos;LED.c&apos;" description="Rename resource &apos;LED.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/include/LED.cpp" name="LED.c" stamp="1382766580005" updateReferences="true"/>
+</session>

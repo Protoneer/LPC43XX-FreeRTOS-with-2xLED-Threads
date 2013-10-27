@@ -1,0 +1,12 @@
+22:53:00 **** Incremental Build of configuration Debug for project freertos ****
+make all 
+Building file: ../src/freertos_main.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__REDLIB__ -D__USE_CMSIS -DDEBUG -D__CODE_RED -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\freertos\freertos\inc" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\freertos\cmsis" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\freertos\freertos\port\lpcxpresso\m0" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\freertos\config" -I"C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\freertos\driver" -O0 -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m0 -mthumb -MMD -MP -MF"src/freertos_main.d" -MT"src/freertos_main.d" -o "src/freertos_main.o" "../src/freertos_main.c"
+In file included from ../src/freertos_main.c:28:0:
+C:\Users\Bertus\Documents\LPCXpresso_5.2.6_2137\workspace8\freertos\driver/debug_printf.h:28:26: fatal error: small_printf.h: No such file or directory
+compilation terminated.
+make: *** [src/freertos_main.o] Error 1
+
+22:53:00 Build Finished (took 592ms)
+

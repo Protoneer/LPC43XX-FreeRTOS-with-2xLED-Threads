@@ -1,0 +1,3 @@
+void SetupLEDS(void);
+void LED1(void);
+void LED2(void);
