@@ -1,13 +1,15 @@
-LPC11U14-FreeRTOS-with-Virtual-USB-Serial-and-LEDBlinky
+LPC43XX-FreeRTOS-with-2xLED-Threads
 =======================================================
 
-This is example code of using a NXP LPC11U14 MCU with FreeRTOS. 
+This is example code of using a NXP LPC4337 Xplorer board from NGX with FreeRTOS. 
 
-It has two tasks running at the same time.
-  Virtual Serial Port 
-  A consistent LED Blink at 4Hz
-  
+It has two LED blinking tasks running at the same time.
+
 This code was created with LPCExpresso IDE and is the actual workspace folder.
 
-This demonstrates that you can connect to the board via Serial and
-interact with a second thread that can do some actual stuff. (Like the LED in this example)
+Main file:
+LPC43XX-FreeRTOS-with-2xLED-Threads\LPC43xx FreeTROS 2xLEDS\src\main.c
+
+Hardest part was to get the FreeTROS config file to be correct. I had to change a bunch of the 
+FreeRTOS file to link corectly and that will need to be fixed to upgrade to a new version
+of FreeRTOS. (Current RTOS version is V7.5.3)
